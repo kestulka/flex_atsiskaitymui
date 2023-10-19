@@ -1,0 +1,179 @@
+/* General */
+
+h1,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+div {
+  border-radius: 5px;
+}
+.parent {
+  display: grid;
+  min-width: 100%;
+  min-height: 98vh;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+/* Times */
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div4 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.div5 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div6 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.div7 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+.div8 {
+  grid-area: 8 / 1 / 9 / 2;
+}
+.div9 {
+  grid-area: 9 / 1 / 10 / 2;
+}
+.div10 {
+  grid-area: 10 / 1 / 11 / 2;
+}
+.div11 {
+  grid-area: 11 / 1 / 12 / 2;
+}
+
+/* Stages */
+
+.div12 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div13 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div14 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div15 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.div16 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+.div17 {
+  grid-area: 1 / 7 / 2 / 8;
+}
+.div18 {
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+/* Talks */
+
+.talk1 {
+  grid-area: 2 / 2 / 5 / 4;
+}
+.talk2_3 {
+  grid-area: 6 / 2 / 8 / 5;
+}
+.talk4 {
+  grid-area: 2 / 4 / 6 / 5;
+}
+.talk5 {
+  grid-area: 2 / 5 / 3 / 7;
+}
+.talk6 {
+  grid-area: 4 / 5 / 8 / 7;
+}
+.talk7 {
+  grid-area: 9 / 2 / 12 / 4;
+}
+.talk8 {
+  grid-area: 10 / 4 / 12 / 7;
+}
+.talk9 {
+  grid-area: 2 / 7 / 8 / 9;
+}
+.talk10 {
+  grid-area: 9 / 7 / 12 / 9;
+}
+.empty {
+  grid-area: 9 / 4 / 10 / 7;
+}
+
+/* Breaks */
+
+.break1 {
+  grid-area: 5 / 2 / 6 / 4;
+}
+.break2 {
+  grid-area: 3 / 5 / 4 / 7;
+}
+.break3 {
+  grid-area: 8 / 2 / 9 / 9;
+}
+
+/* colors & texts */
+
+.div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18,
+.talk1, .talk2_3, .talk4, .talk5, .talk6, .talk7, .talk8, .talk9, .talk10,
+.break1, .break2, .break3{
+    display: grid;
+    place-items: center;
+}
+
+.div12, .div13, .div14, .div15, .div16, .div17, .div18{
+  font-size: 1.3em;
+}
+
+.div5 p, .div8 p{
+  padding: 10px 20px;
+  background-color: orange;
+}
+
+.talk1, .talk2_3, .talk7{
+    background-color: skyblue;
+}
+
+.talk4, .talk8{
+    background-color: lightgreen;
+}
+
+.talk5, .talk6{
+    background-color: pink;
+}
+
+.talk9, .talk10{
+    background-color: rgb(246, 246, 106);
+}
+
+.talk1 h3, .talk2_3 h3, .talk7 h3{
+    color: blue;
+    font-size: 1.5em;
+}
+
+.talk4 h3, .talk8 h3{
+    color: limegreen;
+    font-size: 1.5em;
+}
+
+.talk5 h3, .talk6 h3{
+    color: crimson;
+    font-size: 1.5em;
+}
+
+.talk9 h3, .talk10 h3{
+    color: orange;
+    font-size: 1.5em;
+}

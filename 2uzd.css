@@ -1,0 +1,218 @@
+/* General */
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #121212;
+}
+div {
+  display: flex;
+  overflow: hidden;
+}
+img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  width: 100%;
+  height: 95vh;
+}
+
+.text {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+}
+
+/* hovers */
+
+.div1:hover .text {
+  display: flex;
+}
+.div1:hover {
+  filter: brightness(1);
+}
+.div2:hover .text {
+  display: flex;
+}
+.div2:hover {
+  filter: brightness(1);
+}
+.div3:hover .text {
+  display: flex;
+}
+.div3:hover {
+  filter: brightness(1);
+}
+.div4:hover .text {
+  display: flex;
+}
+.div4:hover {
+  filter: brightness(1);
+}
+.div5:hover .text {
+  display: flex;
+}
+.div5:hover {
+  filter: brightness(1);
+}
+.div6:hover .text {
+  display: flex;
+}
+.div6:hover {
+  filter: brightness(1);
+}
+.div7:hover .text {
+  display: flex;
+}
+.div7:hover {
+  filter: brightness(1);
+}
+.div8:hover .text {
+  display: flex;
+}
+.div8:hover {
+  filter: brightness(1);
+}
+.div9:hover .text {
+  display: flex;
+}
+.div9:hover {
+  filter: brightness(1);
+}
+.div10:hover .text {
+  display: flex;
+}
+.div10:hover {
+  filter: brightness(1);
+}
+.div11:hover .text {
+  display: flex;
+}
+.div11:hover {
+  filter: brightness(1);
+}
+.div12:hover .text {
+  display: flex;
+}
+.div12:hover {
+  filter: brightness(1);
+}
+.div13:hover .text {
+  display: flex;
+}
+.div13:hover {
+  filter: brightness(1);
+}
+.div14:hover .text {
+  display: flex;
+}
+.div14:hover {
+  filter: brightness(1);
+}
+.div15:hover .text {
+  display: flex;
+}
+.div15:hover {
+  filter: brightness(1);
+}
+.div16:hover .text {
+  display: flex;
+}
+.div16:hover {
+  filter: brightness(1);
+}
+.div17:hover .text {
+  display: flex;
+}
+.div17:hover {
+  filter: brightness(1);
+}
+.div18:hover .text {
+  display: flex;
+}
+.div18:hover {
+  filter: brightness(1);
+}
+.div19:hover .text {
+  display: flex;
+}
+.div19:hover {
+  filter: brightness(1);
+}
+
+/* Grid areas */
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.div4 {
+  grid-area: 3 / 1 / 5 / 3;
+}
+.div5 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div6 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.div7 {
+  grid-area: 4 / 3 / 6 / 5;
+}
+.div8 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+.div9 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+.div10 {
+  grid-area: 1 / 4 / 3 / 5;
+}
+.div11 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.div12 {
+  grid-area: 1 / 6 / 2 / 8;
+}
+.div13 {
+  grid-area: 1 / 8 / 3 / 9;
+}
+.div14 {
+  grid-area: 2 / 7 / 3 / 8;
+}
+.div15 {
+  grid-area: 2 / 5 / 4 / 7;
+}
+.div16 {
+  grid-area: 4 / 5 / 6 / 6;
+}
+.div17 {
+  grid-area: 4 / 6 / 5 / 7;
+}
+.div18 {
+  grid-area: 5 / 6 / 6 / 7;
+}
+.div19 {
+  grid-area: 3 / 7 / 6 / 9;
+}
